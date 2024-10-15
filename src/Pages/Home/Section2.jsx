@@ -1,0 +1,68 @@
+import React from 'react';
+import img1 from '../../assets/section2.jpeg'
+
+const Section2 = () => {
+    return (
+        <div
+  className="hero w-[1440px] h-[982px]"
+  style={{
+    backgroundImage: `url(${img1})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center', 
+  }}>
+  
+  <div className="text-white">
+    <div className='flex justify-between gap-4 tracking-widest'>
+        <div className='w-[550px]'>
+
+        </div>
+        <div>
+        <div className="w-[480px] pr-4 h-[471px] mx-auto -mt-96 ">
+      <div className=''>
+        <p className='my-4 text-[#D0FD3E]'>A B O U T U S</p>
+      <h1 className="mb-5 text-4xl font-teko font-semibold">WELCOME TO THE <br />
+      Andrews Personal Training</h1>
+      </div>
+      <p className='text-lg pr-4 w-[450px] h-[96px] font-extralight text-gray-300' style={{ wordSpacing: '0.25rem' }}>At Andrews Personal Training, we believe in the power of personalized fitness solutions. Founded with a passion for transforming lives through fitness, our mission is to offer high-quality personal training sessions that cater to individual needs and preferences. Our team of certified trainers brings a wealth of experience and expertise, ensuring you receive the best guidance and support on your fitness journey. Whether you're looking to lose weight, build muscle, or improve your overall health, we have the right program for you. With flexible scheduling and delivery services, we make it easy for you to prioritize your health and fitness goals. Join us at Andrews Personal Training and take the first step towards a healthier, happier you.-
+      </p>
+      <div className='flex justify-evenly text-left my-10 -ml-20'>
+        <div>
+          <div className='my-6'>
+          <h1 className='text-[#D0FD3E] mt-96 text-5xl font-teko font-bold'>600K+</h1>
+          <p>WORKING HOURS</p>
+         
+          </div>
+          <div>
+          <h1 className='text-[#D0FD3E] my-2 text-5xl font-teko font-bold'>2560+</h1>
+          <p>HAPPY CLIENTS</p>
+          </div>
+        </div>
+        <div >
+        <div>
+          <h1 className='text-[#D0FD3E] mt-96 text-5xl font-teko font-bold'>790+</h1>
+          <p>SUCCESS PROGRAM</p>
+          
+          </div>
+          <div className='my-6'>
+          <h1 className='text-[#D0FD3E] my-2 text-5xl font-teko font-bold'>830+</h1>
+          <p>PERFECT BODIES</p>
+          </div>
+
+        </div>
+      </div>
+
+     
+      
+     
+
+    </div>
+        </div>
+        
+    </div>
+    
+  </div>
+</div>
+    );
+};
+
+export default Section2;
