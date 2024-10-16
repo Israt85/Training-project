@@ -4,7 +4,7 @@ import banner from '../assets/bannertrai.jpeg'
 const Banner = () => {
     return (
         <div
-  className="hero w-full h-[778px]"
+  className="hero -mt-32 w-full h-[778px]"
   style={{
     backgroundImage: `url(${banner})`,
     backgroundSize: 'cover',

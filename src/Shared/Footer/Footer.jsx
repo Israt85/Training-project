@@ -5,10 +5,10 @@ import logo from '../../assets/Logotraining.png'
 
 const Footer = () => {
     return (
-        <div className='w-[1400px]  h-[400px] bg-black'>
+        <div className='w-[1400px] h-auto bg-black'>
             <div className='flex justify-between py-10'>
-            <div>
-            <img className='w-[300px] h-[300px]' src={footer2} alt="" />
+            <div className='lg:block hidden'>
+            <img className='lg:w-[300px] lg:h-[300px]' src={footer2} alt="" />
             </div>
             <div className='text-center text-gray-400'>
             <img className='w-[150px] h-[140px] mx-auto' src={logo} alt="" />
@@ -27,9 +27,10 @@ const Footer = () => {
 
 
            </div>
-           <p className='my-2'>andrewspersonaltraining19@gmail.com</p>
+          <div className='w-80 md:w-[800px] mx-auto h-full'>
+          <p className='my-2 tex-xs'>andrewspersonaltraining19@gmail.com</p>
            <p>211 shumaker road Buckingham, VA 23921 United States</p>
-           <div className='flex my-6 list-none gap-6 justify-center'>
+           <div className='flex md:flex-row flex-col my-6 list-none gap-6 justify-center'>
             <li>
                 Home
             </li>
@@ -44,8 +45,9 @@ const Footer = () => {
             </li>
            </div>
            <p className='text-center text-gray-600'>Andrews Personal Training ©  2024 All Copyrights Reserved</p>
+          </div>
             </div>
-            <div className='mr-32'>
+            <div className='mr-32 lg:block hidden '>
             <img className='w-[300px] h-[300px]' src={footer} alt="" />
             </div>
             </div>

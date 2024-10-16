@@ -4,7 +4,7 @@ import logo from '../../assets/Logotraining.png'
 const Navbar = () => {
     return (
         <div>
-          <div className="navbar text-white bg-gray-950">
+          <div className="navbar text-white">
   <div className="flex-1">
     <img className='w-[113px] h-[103] ml-20' src={logo} alt="" />
   </div>
