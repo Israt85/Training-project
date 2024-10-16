@@ -5,7 +5,7 @@ const Section1 = () => {
     return (
         <div className='w-full py-10 bg-white'>
             <HeadingTitle className='text-black' title={'WHY CHOOSE US'} subtitle='BUILD YOUR BEST BODY'></HeadingTitle>
-            <div className='grid xl:grid-cols-5 md:grid-cols-2 grid-cols-1 w-[1200px] h-[300px] gap-4 my-10 mx-auto'>
+            <div className='grid xl:grid-cols-5 md:grid-cols-2 grid-cols-1 w-full h-auto xl:w-[1200px] xl:h-[300px] gap-4 my-10 mx-auto'>
             <div className='w-[227px] h-[239px] border-2 border-[#D0FD3E]'>
             <svg className='mx-auto my-6' width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_301_1946)">

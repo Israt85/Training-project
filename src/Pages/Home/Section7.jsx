@@ -4,7 +4,7 @@ import img from '../../assets/section7.jpeg'
 const Section7 = () => {
     return (
         <div
-        className="hero w-[1440px] h-[982px]"
+        className="hero w-full h-[500px] lg:w-[1440px] lg:h-[982px]"
         style={{
           backgroundImage: `url(${img})`,
           backgroundSize: 'cover',
@@ -12,15 +12,15 @@ const Section7 = () => {
         }}>
         
         <div className="text-white">
-          <div className='flex justify-between gap-4 tracking-widest'>
-              <div className='w-[485px]'>
+          <div className='flex flex-col justify-center lg:flex-row  lg:justify-between gap-4 lg:tracking-widest'>
+              <div className='lg:w-[485px] lg:block hidden'>
       
               </div>
               <div>
-              <div className="w-[485px] pr-4 h-[471px] mx-40 -mt-40 ">
+              <div className="w-60 lg:w-[485px] pr-4 h-[471px] lg:mx-40 lg:-mt-40 ">
             <div className=''>
               <p className='my-4 text-[#D0FD3E]'>C O N T A C T U S</p>
-            <h1 className="mb-5 text-5xl font-teko font-semibold w-[400px]">SEND US A MESSAGE
+            <h1 className="mb-5 text-xl lg:text-5xl font-teko font-semibold w-[400px]">SEND US A MESSAGE
             & JOIN OUR TEAM</h1>
             </div>
            <div className='flex justify-between'>
@@ -39,7 +39,7 @@ const Section7 = () => {
            <p className='text-gray-600 mx-6 pt-2'>Subject</p>
             </div>
            </div>
-           <div className='w-[450px] rounded-md mx-2 h-[130px] bg-white'>
+           <div className='lg:w-[450px] rounded-md mx-2 h-32 lg:h-[130px] bg-white'>
 
            </div>
            <button className="btn my-4 mx-4 text-white rounded-full btn-outline border-slate-600">Send Now <svg width="52" height="42" viewBox="0 0 52 42" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -13,12 +13,12 @@ const Section4 = () => {
         
         <div className="flex justify-between text-white">
         <div className="w-[480px] pr-4 h-[471px] mx-auto -mt-20 ">
-      <div className=' '>
+      <div className='px-2 '>
         <p className='my-4 text-[#D0FD3E]'>T E S T I M O N I A L S</p>
-      <h1 className="mb-5 text-6xl font-teko font-bold">WHAT OUR CLIENTS
+      <h1 className="mb-5 text-xl lg:text-6xl font-teko font-bold">WHAT OUR CLIENTS
       SAY ABOUT US</h1>
       </div>
-      <p className='text-lg flex gap-2 pr-4 w-[450px] h-[96px] font-extralight text-gray-300' style={{ wordSpacing: '0.25rem' }}> <img className='w-[38px] h-[20px]' src={testimonials}alt="" />
+      <p className='text-lg px-4 flex lg:flex-row flex-col gap-2 pr-4 w-60 h-auto lg:w-[450px] lg:h-[96px] font-extralight text-gray-300' style={{ wordSpacing: '0.25rem' }}> <img className='w-[38px] h-[20px]' src={testimonials}alt="" />
   I have never felt more confident and motivated thanks to the personalized training sessions. They truly make fitness
 enjoyable and effective!
 
