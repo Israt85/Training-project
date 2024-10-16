@@ -11,7 +11,7 @@ import logo4 from '../../assets/logo3.png'
 const Section3 = () => {
     return (
         <div className='bg-white'>
-            <div className='w-[1300px] h-[571px] py-10 text-white bg-gradient-to-t from-[#3B480D] to-[#D0FD3E]'>
+            <div className='w-[1300px] mx-auto h-[571px] py-10 text-white bg-gradient-to-t from-[#3B480D] to-[#D0FD3E]'>
             <HeadingTitle title={'OUR SERVICES'} subtitle="SOLUTIONS FOR MOVING BETTER       
 & FEELING A HEALTHIER"></HeadingTitle>
             

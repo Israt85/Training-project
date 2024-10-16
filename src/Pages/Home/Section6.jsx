@@ -6,9 +6,11 @@ import team2 from '../../assets/team2.png'
 const Section6 = () => {
     return (
 
-        <div className='w-[1300px] h-[861px] py-10 text-black bg-gradient-to-t from-[#3B480D] to-[#D0FD3E]'>
-            <HeadingTitle title={'T E A M M E M B E R S'} subtitle="TEAM OF EXPERT COACHES"></HeadingTitle>
-            <div className='flex justify-evenly'>
+        <div className='w-[1300px] mx-auto h-[861px] py-10 text-black bg-gradient-to-t from-[#3B480D] to-[#D0FD3E]'>
+            <div className='w-full flex text-white justify-center'>
+            <HeadingTitle className='' title={'T E A M M E M B E R S'} subtitle="TEAM OF EXPERT COACHES"></HeadingTitle>
+            </div>
+            <div className='flex justify-center gap-20'>
             <div className='text-center text-white w-[350px]'>
                     <img className='w-[314px] mx-auto h-[342px] rounded-md' src={team1} alt="" />
                     <h3 className='font-teko font-semibold text-2xl my-2'>Andrew Sullivan</h3>
