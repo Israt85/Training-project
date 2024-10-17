@@ -2,7 +2,7 @@ import React from 'react';
 import img1 from '../../assets/section2.jpeg'
 const Section2 = () => {
     return (
-        <div className='flex lg:flex-row flex-col my-16 justify-center items-centergap-6'>
+        <div className='flex lg:flex-row flex-col my-16 justify-center items-center gap-6'>
            <div>
 <img className='w-[500px] mx-auto h-[450px] lg:ml-10' src={img1} alt="" />
            </div>

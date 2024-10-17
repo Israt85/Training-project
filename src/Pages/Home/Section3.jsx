@@ -11,14 +11,14 @@ import logo4 from '../../assets/logo3.png'
 const Section3 = () => {
     return (
         <div className='bg-white'>
-            <div className='max-w-8xl mx-auto h-[571px] py-10 text-white bg-gradient-to-t from-[#3B480D] to-[#D0FD3E]'>
+            <div className='max-w-7xl mx-auto h-[571px] py-10 text-white bg-gradient-to-t from-[#3B480D] to-[#D0FD3E]'>
             <HeadingTitle title={'OUR SERVICES'} subtitle="SOLUTIONS FOR MOVING BETTER       
 & FEELING A HEALTHIER"></HeadingTitle>
             
         </div>
         <div className='lg:w-[1140px] my-10 xl:h-[1286px] grid md:grid-cols-2 grid-cols-1 items-center gap-10 justify-center lg:mx-20 mx-4 -mt-80 '>
            <div className='w-full mx-auto h-full'>
-           <img className='w-72 h-72 xl:w-[550px] lg:h-[571px]' src={img1} alt="" />
+           <img className='w-72 h-72 lg:w-[550px] lg:h-[571px]' src={img1} alt="" />
            <div className='-mt-64 px-6 text-white'>
            <img className='my-4' src={sec3logo} alt="" />
 <h1 className='lg:my-2 text-3xl font-medium font-teko'>
@@ -39,8 +39,8 @@ PERSONAL TRAINING
 
            </div>
            </div>
-           <div className=''>
-           <img className='w-72 h-72 xl:w-[550px] lg:h-[571px]' src={img2} alt="" />
+           <div className='w-full h-full mx-auto'>
+           <img className='w-72 h-72 xl:w-[550px] xl:h-[571px]' src={img2} alt="" />
            <div className='-mt-64 px-6 text-white'>
            <img className='my-4' src={logo2} alt="" />
 <h1 className='lg:my-2 text-3xl font-medium font-teko'>
