@@ -3,10 +3,10 @@ import HeadingTitle from '../../Shared/HeadingTitle/HeadingTitle';
 
 const Section1 = () => {
     return (
-        <div className='max-w-8xl py-10 bg-white'>
+        <div className='max-w-7xl py-10 bg-white'>
             <HeadingTitle className='text-black' title={'WHY CHOOSE US'} subtitle='BUILD YOUR BEST BODY'></HeadingTitle>
             <div className='grid xl:grid-cols-5 md:grid-cols-3 grid-cols-2 justify-center w-full mx-auto h-auto xl:max-w-7xl xl:h-[300px] gap-4 my-10'>
-            <div className='w-[227px] h-[239px] border-2 border-[#D0FD3E]'>
+            <div className='w-[227px] mx-auto h-[239px] border-2 border-[#D0FD3E]'>
             <svg className='mx-auto my-6' width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_301_1946)">
 <path d="M14.1011 23.0489C20.2053 23.0489 25.1537 18.1004 25.1537 11.9962C25.1537 5.89194 20.2053 0.943481 14.1011 0.943481C7.99682 0.943481 3.04836 5.89194 3.04836 11.9962C3.04836 18.1004 7.99682 23.0489 14.1011 23.0489Z" fill="#D0FD3E"/>

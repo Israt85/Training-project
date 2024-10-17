@@ -1,5 +1,6 @@
 import React from 'react';
 import aboutBanner from '../../assets/aboutBanner.png'
+import { NavLink } from 'react-router-dom';
 
 const Section1 = () => {
     return (
@@ -22,9 +23,16 @@ const Section1 = () => {
      <div className='w-48 mx-auto h-[10]'>
         
       <button className="btn mb-4 border text-white rounded-full btn-outline border-slate-600">
-        <li>Home</li>
-        <li>About</li>
-        
+      <NavLink to='/'  className={({ isActive }) =>
+          isActive
+            ? 'text-[#D0FD3E] font-bold'
+            : 'text-gray-100'  
+        }> <li><a>Home</a></li></NavLink>
+         <NavLink to='/about'  className={({ isActive }) =>
+          isActive
+            ? 'text-[#D0FD3E] font-bold'
+            : 'text-gray-100'  
+        }> <li><a>About</a></li></NavLink>
         
            </button>
      
