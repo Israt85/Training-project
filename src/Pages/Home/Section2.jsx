@@ -17,7 +17,7 @@ const Section2 = () => {
 
         </div>
         <div className=''>
-        <div className="w-[480px] px-4 lg:pr-4 h-[471px] mx-auto -mt-96 ">
+        <div className="w-[400px] px-4 lg:pr-4 h-[471px] mx-auto -mt-96 ">
       <div className=''>
         <p className='my-4 text-[#D0FD3E]'>A B O U T U S</p>
       <h1 className="mb-5 text-xl lg:text-4xl font-teko font-semibold">WELCOME TO THE <br />

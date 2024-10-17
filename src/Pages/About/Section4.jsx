@@ -5,7 +5,7 @@ const Section4 = () => {
     return (
         <div className='max-w-8xl py-6 bg-white'>
         <HeadingTitle className='text-black' title={'WHY CHOOSE US'} subtitle='BUILD YOUR BEST BODY'></HeadingTitle>
-        <div className='grid xl:grid-cols-5 md:grid-cols-3 grid-cols-2 justify-center w-full mx-auto h-auto xl:max-w-7xl xl:h-[300px] gap-4 my-10'>
+        <div className='grid xl:grid-cols-5 md:grid-cols-3 grid-cols-1 justify-center items-center w-full mx-auto h-auto xl:max-w-7xl xl:h-[300px] gap-4 my-10'>
         <div className='w-[200px] mx-auto h-[200px] border-2 border-[#D0FD3E]'>
         <svg className='mx-auto my-6' width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_301_1946)">
@@ -22,7 +22,7 @@ const Section4 = () => {
 </svg>
 <p className='text-center text-sm font-bold p-2'>Virtual One ON One Visit</p>
         </div>
-        <div className='w-[200px] h-[200px] border-2 border-[#D0FD3E]'>
+        <div className='w-[200px] mx-auto h-[200px] border-2 border-[#D0FD3E]'>
         <svg className='mx-auto my-6' width="133" height="112" viewBox="0 0 133 112" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_301_1953)">
 <path d="M58.1418 34.9982V27.9982H8.30597C3.72938 27.9982 0 31.1412 0 34.9982V48.9982H59.8944C58.7398 44.7212 58.1418 40.1152 58.1418 34.9982ZM132.555 62.9982C126.89 70.3552 118.252 76.6132 105.876 82.6052C103.974 83.5222 101.831 83.9982 99.6717 83.9982C97.5121 83.9982 95.3692 83.5222 93.492 82.6192C81.1161 76.6132 72.4779 70.3482 66.8049 62.9982H0V97.9982C0 101.862 3.72938 104.998 8.30597 104.998H124.59C129.174 104.998 132.896 101.862 132.896 97.9982V62.9982H132.555ZM37.3769 83.9982H20.7649C18.4725 83.9982 16.6119 82.4302 16.6119 80.4982C16.6119 78.5662 18.4725 76.9982 20.7649 76.9982H37.3769C39.6693 76.9982 41.5299 78.5662 41.5299 80.4982C41.5299 82.4302 39.6693 83.9982 37.3769 83.9982Z" fill="#D0FD3E"/>
@@ -37,7 +37,7 @@ const Section4 = () => {
 
 <p className='text-center text-sm font-bold p-2'>Secure Checkout</p>
         </div>
-        <div className='w-[200px] h-[200px] border-2 border-[#D0FD3E]'>
+        <div className='w-[200px] mx-auto h-[200px] border-2 border-[#D0FD3E]'>
         <svg className='mx-auto my-6' width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_301_1958)">
 <path d="M93.0806 24.1748C94.7231 24.1363 96.2854 23.4568 97.4335 22.2816C98.5816 21.1063 99.2243 19.5285 99.2243 17.8855C99.2243 16.2426 98.5816 14.6648 97.4335 13.4895C96.2854 12.3143 94.7231 11.6348 93.0806 11.5963C89.6172 11.5963 86.7914 14.4222 86.7914 17.8855C86.7914 21.3662 89.6 24.1748 93.0806 24.1748Z" fill="#D0FD3E"/>
@@ -58,7 +58,7 @@ const Section4 = () => {
 
 <p className='text-center text-sm font-bold p-2'>Expert Tailored Training</p>
         </div>
-        <div className='w-[200px] h-[200px] border-2 border-[#D0FD3E]'>
+        <div className='w-[200px] mx-auto h-[200px] border-2 border-[#D0FD3E]'>
         <svg className='mx-auto my-6' width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_301_1969)">
 <path d="M85.206 19.1236C85.206 16.4959 84.1805 14.0223 82.322 12.1638L73.0422 2.884C71.2095 1.05109 68.6079 0 66.0188 0H65.4548V19.6875H85.2062L85.206 19.1236Z" fill="#D0FD3E"/>
@@ -75,13 +75,13 @@ const Section4 = () => {
 
 <p className='text-center text-sm font-bold p-2'>First Session Is Free</p>
         </div>
-        <div className='w-[200px] h-[200px] border-2 border-[#D0FD3E]'>
+        <div className='w-[200px] mx-auto h-[210px] border-2 border-[#D0FD3E]'>
         <svg className='mx-auto my-6' width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M74.5276 32.7467C76.588 33.2982 78.305 34.61 79.3616 36.4407C81.401 39.9733 80.412 44.4362 77.2093 46.8077L69.3056 33.121C70.9423 32.4111 72.7645 32.2742 74.5276 32.7465V32.7467ZM25.2588 84.4369L36.2882 78.0695L21.7577 52.9369L10.7441 59.2968C7.40333 61.2255 5.00845 64.3576 4.00242 68.1148C2.9942 71.8732 3.50148 75.7833 5.4302 79.123C8.11711 83.7745 13.006 86.3783 18.0265 86.3783C20.4868 86.3783 22.9788 85.7529 25.2588 84.4369ZM48.2687 98.8545L39.0066 82.814L30.3616 87.805L39.6215 103.847C40.9998 106.23 44.058 107.049 46.4423 105.673C47.5886 105.011 48.4111 103.933 48.7591 102.64C49.105 101.346 48.931 100.003 48.2687 98.8547V98.8545ZM82.7106 67.2744L54.3324 18.1237C53.7418 17.0986 52.7705 16.5367 51.5959 16.5367C51.5738 16.5367 51.5506 16.5377 51.5285 16.5377C50.3232 16.5598 49.3478 17.1588 48.7825 18.225C47.785 20.1073 46.8232 22.1161 45.8055 24.2432C41.5231 33.1877 36.7082 43.2428 26.4486 50.1213L41.0696 75.4165C52.1454 69.9792 63.2581 70.8357 73.1401 71.5991C75.4949 71.7815 77.7168 71.9524 79.8481 72.0305C81.0556 72.0768 82.0594 71.5306 82.6807 70.4973C83.3039 69.4637 83.3133 68.3185 82.7113 67.2746L82.7106 67.2744ZM75.5768 16.8077C74.8227 18.1154 75.271 19.7877 76.5786 20.5428C76.9927 20.7835 77.4632 20.9102 77.9421 20.9099C78.8869 20.9099 79.8076 20.4195 80.3127 19.5423L85.9619 9.76153C86.716 8.45384 86.2677 6.7815 84.96 6.02637C83.6513 5.27147 81.98 5.71947 81.226 7.02715L75.5768 16.8077ZM108.503 46.7985C108.503 45.2896 107.28 44.0642 105.762 44.0642L94.4709 44.0653C92.9619 44.0653 91.7365 45.2896 91.7365 46.7996C91.7365 48.3097 92.9619 49.534 94.4709 49.534L105.762 49.5329C107.28 49.5329 108.503 48.3097 108.503 46.7985ZM101.965 23.3901C101.206 22.0824 99.5397 21.6344 98.2323 22.3893L88.2122 28.1724C86.9034 28.9286 86.4554 30.5999 87.2103 31.9087C87.3899 32.2198 87.629 32.4924 87.9139 32.7111C88.1989 32.9298 88.5241 33.0902 88.8711 33.1831C89.2181 33.2761 89.5799 33.2997 89.9361 33.2528C90.2922 33.2058 90.6356 33.0891 90.9466 32.9094L100.964 27.1252C102.271 26.3701 102.725 24.6978 101.965 23.3901Z" fill="#D0FD3E"/>
 </svg>
 
 
-<p className='text-center text-sm font-bold p-2'>Ask about Promotional Offers</p>
+<p className='text-center text-sm font-bold p-0'>Ask about Promotional Offers</p>
         </div>
         </div>
         

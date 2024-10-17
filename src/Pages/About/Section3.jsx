@@ -6,7 +6,7 @@ const Section3 = () => {
     return (
         <div>
             <div className='max-w-8xl mx-auto h-[531px] py-10 text-white bg-gradient-to-t from-[#3B480D] to-[#D0FD3E]'>
-           <div className="flex justify-center gap-10">
+           <div className="flex lg:flex-row flex-col justify-center items-center gap-10">
             <div>
                 <p className="font-teko text-6xl font-bold">
                     600K+
@@ -38,10 +38,10 @@ const Section3 = () => {
             </div>
             
         </div>
-        <div className="max-w-3xl mx-auto -mt-80 h-[550px]">
+        <div className="max-w-3xl mx-auto md:-mt-80 h-auto md:h-[500px]">
         <img src={img2} alt="" />
-       <div className="w-full -mt-64 border">
-       <img className="mx-auto w-[100px] h-[100px]" src={play} alt="" />
+       <div className="w-full lg:-mt-64 border">
+       <img className="lg:block hidden mx-auto w-[100px] h-[100px]" src={play} alt="" />
        </div>
 
         </div>

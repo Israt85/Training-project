@@ -7,11 +7,11 @@ import img3 from '../../assets/planningimg3.png'
 const Section5 = () => {
     return (
        <div className='bg-gray-100 py-6'>
-         <div className='w-full h-auto lg:w-[1140px] lg:h-[776px] py-10 mx-auto '>
+         <div className='w-full h-auto lg:w-[1140px] xl:h-[776px] py-10 mx-auto '>
             <HeadingTitle title={'PRICING TABLES'} subtitle={'CHOOSE YOUR PRICING PLAN'}></HeadingTitle>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-                <div className='bg-white w-[350px] h-[600px]'>
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10'>
+                <div className='bg-white w-[300px] xl:w-[350px] mx-auto h-[600px]'>
                     <img className='relative' src={img1} alt="" />
                     <div className='w-28 absolute h-28 mx-32 rounded-full -mt-14  bg-[#D0FD3E]'>
                      <div className='text-center py-2'>
@@ -30,7 +30,7 @@ const Section5 = () => {
                     </div>
                 </div>
                 
-                <div className='bg-white w-[350px] h-[600px]'>
+                <div className='bg-white w-[300px] mx-auto xl:w-[350px] h-[600px]'>
                     <img className='relative' src={img2} alt="" />
                     <div className='w-28 absolute h-28 mx-32 rounded-full -mt-14  bg-[#D0FD3E]'>
                      <div className='text-center py-2'>
@@ -50,7 +50,7 @@ const Section5 = () => {
                     </div>
                 </div>
                 
-                <div className='bg-white w-[350px] h-[600px]'>
+                <div className='bg-white w-[300px] mx-auto xl:w-[350px] h-[600px]'>
                     <img className='relative' src={img3} alt="" />
                     <div className='w-28 absolute h-28 mx-32 rounded-full -mt-14  bg-[#D0FD3E]'>
                      <div className='text-center py-2'>
