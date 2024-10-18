@@ -12,11 +12,11 @@ const Banner = () => {
   }}
 >
         
-        <div className=" my-96 text-white">
-          <div className="w-[1050px] h-[471px] mx-auto p-4 text-left">
+        <div className=" lg:my-96 text-white">
+          <div className="lg:w-[1050px] lg:h-[471px] mx-auto p-4 text-left">
             <div className=''>
            
-            <p className="mb-2 text-center font-teko tracking-wider font-bold text-7xl">
+            <p className="mb-2 mt-16 text-center font-teko tracking-wider font-bold text-4xl lg:text-7xl">
             CONTACT US
             </p>
             </div>

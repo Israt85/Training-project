@@ -9,7 +9,7 @@ import svg3 from '../../assets/contactsvg2.png'
 
 const Section2 = () => {
     return (
-        <div className='max-w-7xl mx-auto h-auto lg:h-[600px] bg-white'>
+        <div className='max-w-7xl mx-auto h-auto xl:h-[600px] bg-white'>
             <HeadingTitle className='text-black' title={'FIND US NOW'} subtitle='READY FOR WORKOUT'></HeadingTitle>
             <div className='grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center w-full mx-auto h-auto xl:max-w-7xl xl:h-[300px] gap-4 my-10'>
            <div className='w-[300px] lg:w-[350px] bg-[#D0FD3E] mx-auto h-[400px]'>

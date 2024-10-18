@@ -3,9 +3,7 @@ import logo from '../../assets/Logotraining.png'
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-  const links={
-    
-  }
+ 
     return (
       <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -43,7 +41,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="">
-  <img className='w-[100px] h-[100] lg:ml-20' src={logo} alt="" />
+  <img className=' w-[80px] h-[80] mx-2 lg:ml-20' src={logo} alt="" />
 </div>
       </div>
       <div className="navbar-end hidden lg:flex">
