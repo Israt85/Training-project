@@ -81,7 +81,7 @@ const Section4 = () => {
 </svg>
 
 
-<p className='text-center text-sm font-bold p-0'>Ask about Promotional Offers</p>
+<p className='text-center text-sm font-bold p-1'>Ask about Promotional Offers</p>
         </div>
         </div>
         

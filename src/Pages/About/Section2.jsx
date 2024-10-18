@@ -2,9 +2,9 @@ import React from 'react';
 import img1 from '../../assets/section2.jpeg'
 const Section2 = () => {
     return (
-        <div className='flex lg:flex-row flex-col my-16 justify-center items-center gap-6'>
+        <div className='flex lg:flex-row flex-col my-16 justify-center items-center gap-4'>
            <div>
-<img className='w-[500px] mx-auto h-[450px] lg:ml-10' src={img1} alt="" />
+<img className='w-[600px] rounded-lg mx-auto h-[450px] lg:ml-10' src={img1} alt="" />
            </div>
        <div className='lg:w-[500px] p-4 mx-auto text-left'>
            <div className=' '>
