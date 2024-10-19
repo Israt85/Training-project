@@ -26,7 +26,7 @@ const Section5 = () => {
                 <li>Exercise plan (easy to follow)</li>
                 <li>24/7 access</li>
               </ul>
-              <button className="btn mt-10 bg-[#D0FD3E] text-black rounded-full px-6 py-2">Join Now</button>
+              <button className="btn mt-24 bg-[#D0FD3E] text-black rounded-full px-6 py-2">Join Now</button>
             </div>
           </div>
 
@@ -46,7 +46,7 @@ const Section5 = () => {
                 <li>Weekly progress checks</li>
                 <li>Nutrition coaching</li>
               </ul>
-              <button className="btn mt-10 bg-[#D0FD3E] text-black rounded-full px-6 py-2">Join Now</button>
+              <button className="btn mt-14 bg-[#D0FD3E] text-black rounded-full px-6 py-2">Join Now</button>
             </div>
           </div>
 
@@ -68,7 +68,7 @@ const Section5 = () => {
                 <li>Nutrition coaching</li>
                 <li>24/7 access</li>
               </ul>
-              <button className="btn mt-10 bg-[#D0FD3E] text-black rounded-full px-6 py-2">Join Now</button>
+              <button className="btn mt-6 bg-[#D0FD3E] text-black rounded-full px-6 py-2">Join Now</button>
             </div>
           </div>
         </div>
