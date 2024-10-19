@@ -4,7 +4,7 @@ import testimonials from '../../assets/testimonials.png'
 const Section4 = () => {
     return (
         <div
-        className="hero  py-20 lg:max-w-8xl lg:h-[778px]"
+        className="hero my-6 py-20 lg:max-w-8xl lg:h-[778px]"
         style={{
           backgroundImage: `url(${img})`,
           backgroundSize: 'cover',
