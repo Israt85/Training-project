@@ -2,11 +2,11 @@ import React from 'react';
 import img1 from '../../assets/section2.jpeg'
 const Section2 = () => {
     return (
-        <div className='flex lg:flex-row flex-col my-16 justify-center items-center gap-4'>
+        <div className='flex lg:flex-row flex-col my-16 justify-center items-center'>
            <div>
-<img className='w-[600px] rounded-lg mx-auto h-[450px] lg:ml-10' src={img1} alt="" />
+<img className='lg:w-[600px] mx-auto rounded-lg h-[450px] lg:ml-10' src={img1} alt="" />
            </div>
-       <div className='lg:w-[500px] p-4 mx-auto text-left'>
+       <div className='lg:w-[400px] p-4 mx-8 text-left'>
            <div className=' '>
         <p className='my-4 font-teko tracking-widest'>A B O U T U S</p>
       <h1 className="mb-5 text-xl lg:text-5xl font-teko font-bold">WELCOME TO THE

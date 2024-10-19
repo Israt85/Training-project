@@ -39,7 +39,7 @@ const Section2 = () => {
             </div>
 
            </div>
-           <div className='w-[300px] lg:w-[350px] bg-[#D0FD3E] mx-auto h-[400px]'>
+           <div className='w-[300px] md:col-span-2 xl:col-span-1 lg:w-[350px] bg-[#D0FD3E] mx-auto h-[400px]'>
             <img className='relative' src={img3} alt="" />
             <div className='w-[130px] absolute mx-20 lg:mx-28 -mt-16 rounded-full h-[130px] bg-black'>
                 <img className='p-10' src={svg3} alt="" />
