@@ -16,7 +16,7 @@ const Section3 = () => {
 & FEELING A HEALTHIER"></HeadingTitle>
 
             </div>
-            <div className='grid grid-cols-1 h-[1200px] md:grid-cols-2 gap-8 -mt-80 px-4 lg:px-8'>
+            <div className='grid grid-cols-1 lg:h-[1200px] md:grid-cols-2 gap-8 -mt-60 px-4 lg:px-8'>
                 <div className='w-full mx-auto h-full'>
                     <img className='w-80 md:w-[500px] mx-auto rounded-lg h-72 xl:w-[550px] lg:h-[521px]' src={img1} alt="" />
                     <div className='-mt-64 px-10 text-white'>
