@@ -5,7 +5,7 @@ const Section4 = () => {
     return (
         <div className='max-w-8xl py-6 bg-white'>
         <HeadingTitle className='text-black' title={'WHY CHOOSE US'} subtitle='BUILD YOUR BEST BODY'></HeadingTitle>
-        <div className='grid xl:grid-cols-5 md:grid-cols-3 grid-cols-1 justify-center items-center w-full mx-auto h-auto xl:max-w-7xl xl:h-[300px] gap-4 my-10'>
+        <div className='flex flex-col md:flex-row flex-wrap w-full mx-auto h-auto xl:max-w-7xl xl:h-[300px] gap-4 my-10'>
         <div className='w-[200px] mx-auto h-[200px] border-2 border-[#D0FD3E]'>
         <svg className='mx-auto my-6' width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_301_1946)">
