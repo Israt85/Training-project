@@ -4,7 +4,7 @@ import img from '../../assets/aboutsec5.png'
 const Section5 = () => {
     return (
         <div
-        className="hero w-full h-[650px] lg:max-w-7xl lg:h-[800px]"
+        className="hero w-full mx-auto h-[650px] lg:max-w-7xl lg:h-[800px]"
         style={{
           backgroundImage: `url(${img})`,
           backgroundSize: 'cover',

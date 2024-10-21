@@ -3,7 +3,7 @@ import HeadingTitle from '../../Shared/HeadingTitle/HeadingTitle';
 
 const Section4 = () => {
     return (
-        <div className='max-w-8xl py-6 bg-white'>
+        <div className='max-w-7xl mx-auto py-6 bg-white'>
         <HeadingTitle className='text-black' title={'WHY CHOOSE US'} subtitle='BUILD YOUR BEST BODY'></HeadingTitle>
         <div className='flex flex-col md:flex-row flex-wrap w-full mx-auto h-auto xl:max-w-7xl xl:h-[300px] gap-4 my-10'>
         <div className='w-[200px] mx-auto h-[200px] border-2 border-[#D0FD3E]'>

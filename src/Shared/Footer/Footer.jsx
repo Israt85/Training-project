@@ -5,7 +5,7 @@ import logo from '../../assets/Logotraining.png';
 
 const Footer = () => {
     return (
-        <div className='w-full mx-auto h-auto bg-black'>
+        <div className='max-w-7xl mx-auto h-auto bg-black'>
             <div className='flex justify-between py-10 items-center'>
 
                 <div className='lg:block hidden'>

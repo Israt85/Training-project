@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Banner = () => {
     return (
         <div
-  className="hero -mt-32 w-full h-[300px] sm:h-[400px] md:h-[640px] xl:h-[720px] my-10 lg:max-w-7xl"
+  className="hero -mt-32 w-full h-[300px] mx-auto sm:h-[400px] md:h-[640px] xl:h-[720px] my-10 lg:max-w-7xl"
   style={{
     backgroundImage: `url(${banner})`,
     backgroundSize: 'cover',

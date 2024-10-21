@@ -4,7 +4,7 @@ import img1 from '../../assets/section2.jpeg'
 const Section2 = () => {
     return (
         <div
-  className="hero w-full md:max-w-8xl mx-auto h-[1300px]"
+  className="hero max-w-7xl mx-auto h-[1300px]"
   style={{
     backgroundImage: `url(${img1})`,
     backgroundSize: 'cover',

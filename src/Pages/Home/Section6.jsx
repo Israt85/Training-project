@@ -6,7 +6,7 @@ import team2 from '../../assets/team2.png'
 const Section6 = () => {
     return (
 
-        <div className='w-full h-auto xl:w-[1300px] mx-auto xl:h-[961px] py-10 text-black bg-gradient-to-t from-[#3B480D] to-[#D0FD3E]'>
+        <div className='w-full h-auto xl:max-w-7xl mx-auto xl:h-[961px] py-10 text-black bg-gradient-to-t from-[#3B480D] to-[#D0FD3E]'>
             <div className='w-full flex text-white justify-center'>
             <HeadingTitle className='' title={'T E A M M E M B E R S'} subtitle="TEAM OF EXPERT COACHES"></HeadingTitle>
             </div>

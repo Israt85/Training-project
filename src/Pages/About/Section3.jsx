@@ -5,7 +5,7 @@ import play from '../../assets/play.png'
 const Section3 = () => {
     return (
         <div>
-            <div className='max-w-8xl mx-auto h-[531px] py-10 text-white bg-gradient-to-t from-[#3B480D] to-[#D0FD3E]'>
+            <div className='max-w-7xl mx-auto h-[531px] py-10 text-white bg-gradient-to-t from-[#3B480D] to-[#D0FD3E]'>
             <div className="grid pt-8 lg:grid-cols-4 grid-cols-2 justify-center mx-10 items-center px-4 gap-10">
   <div className="text-center">
     <p className="font-teko text-4xl lg:text-6xl font-bold">

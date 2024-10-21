@@ -6,12 +6,12 @@ import img3 from '../../assets/planningimg3.png';
 
 const Section5 = () => {
   return (
-    <div className='bg-gray-100 py-6'>
-      <div className='w-full h-auto max-w-7xl py-10 mx-auto'>
+    <div className='bg-gray-100'>
+      <div className=' h-auto w-full lg:w-[1050px] xl:h-[900px] py-12 mx-auto '>
         <HeadingTitle title={'PRICING TABLES'} subtitle={'CHOOSE YOUR PRICING PLAN'}></HeadingTitle>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center'>
      
-        <div className='bg-white w-[90%] sm:w-[300px] lg:w-[350px] mx-auto h-auto border relative shadow-lg'>
+        <div className='bg-white w-[80%] sm:w-[300px] lg:w-[350px] mx-auto h-auto border relative shadow-lg'>
   <img className='w-full' src={img1} alt="" />
   <div className='w-28 h-28 mx-auto absolute inset-x-0 -mt-14 rounded-full bg-[#D0FD3E] flex items-center justify-center'>
     <div className='text-center'>
@@ -31,7 +31,7 @@ const Section5 = () => {
 </div>
 
 
-          <div className='bg-white w-[90%] sm:w-[300px] lg:w-[350px] mx-auto h-auto border relative shadow-lg'>
+          <div className='bg-white w-[80%] sm:w-[300px] lg:w-[350px] mx-auto h-auto border relative shadow-lg'>
             <img className='w-full' src={img2} alt="" />
             <div className='w-28 absolute h-28 mx-auto inset-x-0 flex justify-center items-center rounded-full -mt-14  bg-[#D0FD3E]'>
               <div className='text-center py-2'>
@@ -52,7 +52,7 @@ const Section5 = () => {
           </div>
 
          
-          <div className='bg-white w-[90%] md:col-span-2 lg:col-span-1 sm:w-[300px] lg:w-[350px] mx-auto h-auto border relative shadow-lg'>
+          <div className='bg-white w-[80%] md:col-span-2 lg:col-span-1 sm:w-[300px] lg:w-[350px] mx-auto h-auto border relative shadow-lg'>
             <img className='w-full' src={img3} alt="" />
             <div className='w-28 absolute h-28 mx-auto inset-x-0 flex justify-center items-center rounded-full -mt-14  bg-[#D0FD3E]'>
                      <div className='text-center py-2'>

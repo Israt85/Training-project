@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Section1 = () => {
     return (
       <div
-      className="hero -mt-32 w-full h-[300px] sm:h-[400px] md:h-[720px]  my-10 lg:max-w-7xl"
+      className="hero -mt-32 h-[300px] sm:h-[400px] md:h-[720px]  my-10 max-w-7xl mx-auto"
       style={{
         backgroundImage: `url(${aboutBanner})`,
         backgroundSize: 'cover',

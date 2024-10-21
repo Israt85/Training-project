@@ -4,7 +4,7 @@ import banner from '../assets/bannertrai.jpeg'
 const Banner = () => {
     return (
       <div
-      className="hero -mt-32 w-full h-[400px] md:h-[500px] lg:h-[720px] my-10 lg:max-w-7xl"
+      className="hero -mt-32 mx-auto w-full h-[400px] md:h-[500px] lg:h-[720px] my-10 lg:max-w-7xl"
       style={{
         backgroundImage: `url(${banner})`,
         backgroundSize: 'cover',
@@ -19,7 +19,7 @@ const Banner = () => {
       Andrews Personal Training
       </p>
       </div>
-      <p className='text-xs lg:text-3xl lg:w-[800px] lg:h-[96px] font-extralight tracking-wider' style={{ wordSpacing: '0.25rem' }}>At Andrews Personal Training, we are dedicated to helping you achieve your fitness goals through tailored personal training sessions that fit your lifestyle. Our expert trainers are here to guide and motivate you every step of the way.
+      <p className='text-xs lg:text-2xl lg:w-[800px] lg:h-[96px] font-extralight tracking-wider' style={{ wordSpacing: '0.25rem' }}>At Andrews Personal Training, we are dedicated to helping you achieve your fitness goals through tailored personal training sessions that fit your lifestyle. Our expert trainers are here to guide and motivate you every step of the way.
       </p>
       <button className="btn border lg:mt-24 my-4 text-white rounded-full btn-outline border-slate-600">Schedule Your Free Session Today<svg className='w-10 h-6' viewBox="0 0 52 42" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="52" height="42" rx="21" fill="#D0FD3E"/>
