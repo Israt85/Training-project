@@ -35,9 +35,9 @@ const Navbar = () => {
           ? 'text-[#D0FD3E] font-bold'
           : 'text-gray-100'  
       }> <li><a>About</a></li></NavLink>
-  <Link to='/contact'>  <li className='w-[100px] h-[40px] text-black bg-[#D0FD3E] rounded-full'>
+  <NavLink to='/contact'>  <li className='w-[100px] h-[40px] text-black bg-[#D0FD3E] flex justify-center items-center rounded-full'>
       <a className='px-6'>Contact</a>
-    </li></Link>
+    </li></NavLink>
           </ul>
         </div>
         <div className="">

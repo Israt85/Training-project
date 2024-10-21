@@ -11,8 +11,7 @@ const Banner = () => {
         backgroundPosition: 'center',
       }}
     >
-  
-  <div className=" lg:my-96 text-white">
+<div className=" lg:my-96 text-white">
     <div className="lg:w-[1050px] lg:h-[471px] mx-auto p-4 text-left">
       <div className='border-l-4 px-4 mt-16 lg:-mt-52 border-white'>
       <h1 className="lg:mb-5 lg:text-5xl font-teko tracking-wider font-light">W e l c o m e  T o</h1>
@@ -31,6 +30,7 @@ const Banner = () => {
     </div>
   </div>
 </div>
+
     );
 };
 

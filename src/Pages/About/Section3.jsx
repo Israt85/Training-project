@@ -35,10 +35,10 @@ const Section3 = () => {
 
             
         </div>
-        <div className="max-w-3xl mx-auto -mt-80 lg:-mt-96 h-auto md:h-[500px]">
+        <div className="max-w-3xl relative mx-auto -mt-80 lg:-mt-96 h-auto md:h-[500px]">
         <img className="my-16" src={img2} alt="" />
-       <div className="w-full -mt-40 md:-mt-80 border">
-       <img className=" mx-auto w-20 h-20  lg:w-[100px] lg:h-[100px]" src={play} alt="" />
+       <div className="w-full flex justify-center items-center absolute inset-0 border">
+       <img className="  mx-auto w-20 h-20  lg:w-[100px] lg:h-[100px]" src={play} alt="" />
        </div>
 
         </div>

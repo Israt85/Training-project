@@ -5,7 +5,7 @@ import Footer from '../../Shared/Footer/Footer';
 
 const Mainlayout = () => {
     return (
-        <div className=' max-w-7xl overflow-hidden mx-auto'>
+        <div className=' max-w-7xl overflow-hidden'>
            <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>
