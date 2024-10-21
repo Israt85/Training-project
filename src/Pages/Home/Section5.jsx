@@ -21,7 +21,7 @@ const Section5 = () => {
   </div>
   <div className='px-6 pt-16 pb-8 text-center'>
     <p className='text-xl sm:text-2xl lg:text-3xl font-semibold font-teko mb-6'>BASIC GYM</p>
-    <ul className='space-y-4 w-52 mx-auto list-disc text-left'>
+    <ul className='space-y-4 w-52 mx-auto px-4 list-disc text-left'>
       <li className='text-lg'>App access</li>
       <li className='text-lg'>Exercise plan (easy to follow)</li>
       <li className='text-lg'>24/7 access</li>
@@ -41,7 +41,7 @@ const Section5 = () => {
             </div>
             <div className='px-6 pt-16 pb-8 text-center'>
               <p className='text-xl sm:text-2xl lg:text-3xl font-semibold font-teko mb-6'>STANDARD GYM</p>
-              <ul className='space-y-4 w-52 mx-auto list-disc text-left'>
+              <ul className='space-y-4 w-52 px-4 mx-auto list-disc text-left'>
                 <li className='text-lg'>App access</li>
                 <li className='text-lg'>Exercise plan (easy to follow)</li>
                 <li className='text-lg'>Weekly progress checks</li>
