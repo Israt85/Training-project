@@ -30,9 +30,11 @@ const Navbar = () => {
             <NavLink to='/about' className={({ isActive }) => isActive ? 'text-[#D0FD3E] font-bold' : 'text-gray-100'}>
               <li><a className="focus:outline-none">About</a></li>
             </NavLink>
-            <li className='w-[100px] h-[40px] text-black bg-[#D0FD3E] flex justify-center items-center rounded-full focus:outline-none'>
-              <a href='/contact' className='px-6 focus:outline-none'>Contact</a>
-            </li>
+            <NavLink to='/contact'>
+              <li className='w-[100px] h-[40px] text-black bg-[#D0FD3E] flex justify-center items-center rounded-full focus:outline-none'>
+                <a className='px-6 focus:outline-none'>Contact</a>
+              </li>
+            </NavLink>
           </ul>
         </div>
         <div className="">
@@ -47,10 +49,11 @@ const Navbar = () => {
           <NavLink to='/about' className={({ isActive }) => isActive ? 'text-[#D0FD3E] font-bold' : 'text-gray-100'}>
             <li><a className="focus:outline-none">About</a></li>
           </NavLink>
+          <NavLink to='/contact'>
             <li className='w-[100px] h-[40px] text-black bg-[#D0FD3E] flex justify-center items-center rounded-full focus:outline-none'>
               <a href='/contact' className='px-6 focus:outline-none'>Contact</a>
             </li>
-        
+          </NavLink>
         </ul>
       </div>
     </div>
